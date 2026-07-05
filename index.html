@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kashaf - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Kashaf</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-box">
+      <div class="hero-text">
+        <p class="hero-label">Front-End Developer</p>
+        <h1>Hi, I'm Kashaf</h1>
+        <p class="hero-desc">
+          I build responsive websites using HTML, CSS, and JavaScript.
+          I enjoy turning ideas into clean and user-friendly web pages.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">My Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="profile-pic">
+        <div class="profile-circle">K</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I am a front-end developer based in Pakistan. I started learning web
+            development recently and have been working on small projects to improve
+            my skills.
+          </p>
+          <p>
+            I focus on writing clean HTML, styling with CSS, and making layouts
+            that work well on mobile and desktop. I am always learning and trying
+            to get better with every project.
+          </p>
+        </div>
+        <div class="about-info">
+          <p><span>Name:</span> Kashaf</p>
+          <p><span>Role:</span> Front-End Developer</p>
+          <p><span>Email:</span> kashaftariq496@gmail.com</p>
+          <p><span>Location:</span> Pakistan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section section-gray" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-desc">Technologies I use in my projects</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>Semantic structure and accessible markup</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>Flexbox, Grid, and responsive design</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>DOM events and basic interactivity</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git</h3>
+          <p>Version control and GitHub workflow</p>
+        </div>
+        <div class="skill-card">
+          <h3>Figma</h3>
+          <p>Simple UI design and layout planning</p>
+        </div>
+        <div class="skill-card">
+          <h3>Bootstrap</h3>
+          <p>Quick layouts and components</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-desc">Some of my recent work</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-color color-blue"></div>
+          <div class="project-body">
+            <h3>Portfolio Website</h3>
+            <p>My personal portfolio built with HTML and CSS using flexbox and grid.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-color color-purple"></div>
+          <div class="project-body">
+            <h3>Restaurant Landing Page</h3>
+            <p>A responsive landing page with menu section and contact form.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-color color-green"></div>
+          <div class="project-body">
+            <h3>To-Do App</h3>
+            <p>A task list app where users can add and delete tasks using JavaScript.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-color color-orange"></div>
+          <div class="project-body">
+            <h3>Weather App</h3>
+            <p>Shows city weather using a public API and simple card layout.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section section-gray" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-desc">Feel free to send me a message</p>
+      <div class="contact-box">
+        <div class="contact-details">
+          <p>You can reach me through email or social media. I will try to reply as soon as possible.</p>
+          <ul>
+            <li>Email: <a href="mailto:kashaftariq496@gmail.com">kashaftariq496@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/kashaf955" target="_blank">github.com/kashaf955</a></li>
+            <li>LeetCode: <a href="https://leetcode.com/u/kashaf_tariq00/" target="_blank">leetcode.com/u/kashaf_tariq00</a></li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2024 Kashaf. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/kashaf955" target="_blank">GitHub</a>
+        <a href="https://leetcode.com/u/kashaf_tariq00/" target="_blank">LeetCode</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
