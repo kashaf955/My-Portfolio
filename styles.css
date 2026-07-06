@@ -49,9 +49,13 @@ header {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   color: #3182ce;
+}
+
+.logo:hover {
+  color: #2c5282;
 }
 
 .nav-menu {
